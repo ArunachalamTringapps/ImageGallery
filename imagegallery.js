@@ -39,9 +39,7 @@ let index;
 
 
 document.addEventListener("keyup",(event)=>{
-    // console.log(event.key);
     if(event.key==" "){
-        // console.log("you pressed space key");
         for (index=count;index<count+1;index++) {
             flexone.style.backgroundImage=`url(${pictures[index]})`
             console.log(pictures[index]);
@@ -58,8 +56,6 @@ document.addEventListener("keyup",(event)=>{
             flextwo.style.backgroundImage=`url(${pictures[index+1]})`
             flexthree.style.backgroundImage=`url(${pictures[index+2]})`
             }
-            // count=index+1
-            // console.log(index+1)
         }
         if(index>=pictures.length){
             count=0
@@ -73,9 +69,6 @@ document.addEventListener("keyup",(event)=>{
             console.log(index+2);
         count=index+2
         }
-    }
-    else{
-
     }
 
 
