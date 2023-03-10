@@ -64,6 +64,7 @@ h1{
 }
 
 .thumbnail{
+    display: none;
     background-color: rgba(128, 128, 128, 0.516);
     position: fixed;
     top: 0;
@@ -73,9 +74,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
-    display: none;
- 
+    z-index: 1; 
 }
 .thumbnail img{
     height: 100%;
